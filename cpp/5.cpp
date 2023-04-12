@@ -6,6 +6,7 @@ int isMin(int arr[]){
  int min=arr[0];
  for (int i = 0; i < sizeofArray; i++)
  {
+
     if (arr[i]<min)
     {
         min=arr[i];
@@ -37,10 +38,11 @@ int main(){
     int arr[sizeofArray];
     for (int i = 0; i < sizeofArray; i++)
     {
+        cout<<"Enter Element"<<endl;
         cin>>arr[i];
     }
     int min_Num=isMin(arr);
     int max_Num=isMax(arr);
-    cout<<min_Num<<endl;
-    cout<<max_Num<<endl;
+    cout<<endl<<min_Num<<"<- Minimum Value"<<endl;
+    cout<<max_Num<<"<- Maximum Value"<<endl;
 }
