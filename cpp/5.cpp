@@ -3,7 +3,7 @@
 using namespace std;
 int sizeofArray;
 int isMin(int arr[]){
- int min=arr[0];
+ int min=INT_MAX;
  for (int i = 0; i < sizeofArray; i++)
  {
 
