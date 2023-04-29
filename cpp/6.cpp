@@ -6,6 +6,7 @@ bool linerSearch(int arr[]){
     int key;
     cout<<"Enter the key"<<endl;
     cin>>key;
+    // new line
     for (int i = 0; i < arrSize; i++)
     {
         if (key==arr[i])

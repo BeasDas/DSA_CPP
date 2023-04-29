@@ -1,7 +1,9 @@
 // Max_Min in an array
 #include<iostream>
 using namespace std;
+
 int sizeofArray;
+
 int isMin(int arr[]){
  int min=INT_MAX;
  for (int i = 0; i < sizeofArray; i++)
